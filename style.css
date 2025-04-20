@@ -1,0 +1,187 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'Poppins', sans-serif;
+  }
+ 
+  
+  
+  body {
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  /* Navbar */
+  .navbar {
+    background-color: #0d0d0d;
+    padding: 1rem 0;
+  }
+  
+  .container {
+    width: 90%;
+    margin: auto;
+    max-width: 1200px;
+  }
+  
+  .navbar .logo {
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .nav-links li {
+    margin-left: 20px;
+  }
+  
+  .nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s;
+  }
+  
+  .nav-links a:hover {
+    color: #00bcd4;
+  }
+  
+  /* Hero Section */
+  .hero {
+    height: 90vh;
+    background: linear-gradient(to right, #00c6ff, #0072ff);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+  }
+  
+  .hero h2 {
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+  
+  .hero p {
+    font-size: 20px;
+    margin-bottom: 30px;
+  }
+  
+  .btn {
+    background: #fff;
+    color: #0072ff;
+    padding: 10px 20px;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 30px;
+    text-decoration: none;
+    transition: background 0.3s, color 0.3s;
+  }
+  
+  .btn:hover {
+    background: #0072ff;
+    color: #fff;
+  }
+  
+  /* About Section */
+  .about {
+    padding: 80px 0;
+  }
+  
+  .about h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 36px;
+  }
+  
+  .about p {
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 18px;
+  }
+  
+  /* Projects Section */
+  .projects {
+    padding: 80px 0;
+    background: #f1f1f1;
+  }
+  
+  .projects h2 {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 36px;
+  }
+  
+  .project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+  }
+  
+  .project-card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    text-align: center;
+  }
+  
+  .project-card h3 {
+    margin-bottom: 10px;
+  }
+  
+  .project-card p {
+    font-size: 16px;
+  }
+  
+  /* Contact Section */
+  .contact {
+    padding: 80px 0;
+  }
+  
+  .contact h2 {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 36px;
+  }
+  
+  .contact form {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .contact input,
+  .contact textarea {
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+  }
+  
+  .contact button {
+    align-self: center;
+  }
+  
+  /* Footer */
+  .footer {
+    background-color: #0d0d0d;
+    padding: 20px 0;
+    text-align: center;
+    color: #fff;
+    font-size: 14px;
+  }
+  
